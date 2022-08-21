@@ -80,6 +80,7 @@
               android:exported="true" />
         </config-file>
 
+        <resource-file src="src/android/build-extras.gradle" target="../../build-extras.gradle" />
         <framework src="com.facebook.android:facebook-android-sdk:$FACEBOOK_ANDROID_SDK_VERSION"/>
 
         <!-- cordova plugin src files -->
