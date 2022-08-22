@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-facebook-connect"
-        version="3.2.0">
+        version="3.2.0-bf-1.0">
 
     <name>Facebook Connect</name>
 
@@ -80,6 +80,7 @@
               android:exported="true" />
         </config-file>
 
+        <resource-file src="src/android/build-extras.gradle" target="../../build-extras.gradle" />
         <framework src="com.facebook.android:facebook-android-sdk:$FACEBOOK_ANDROID_SDK_VERSION"/>
 
         <!-- cordova plugin src files -->
